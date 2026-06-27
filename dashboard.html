@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head><title>Dashboard</title></head>
+<body>
+<h2>Welcome {{ username }}</h2>
+<p>Your role: {{ user_role }}</p>
+<p>This page is protected. Only logged in users can see this.</p>
+<a href="{% url 'logout_user' %}">Logout</a>
+</body>
+</html>
